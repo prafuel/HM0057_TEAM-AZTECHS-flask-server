@@ -1,4 +1,3 @@
-
 import numpy as np
 import spacy
 from sklearn.metrics.pairwise import cosine_similarity
@@ -73,6 +72,8 @@ def helper(user_prompt: str):
 
 
 # ============================================================
+
+# Server start from here
 from flask import Flask, render_template, request
 from flask_cors import CORS
 import random
